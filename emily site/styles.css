@@ -1,0 +1,90 @@
+p{
+  line-height: 135%;
+  color: black;
+}
+
+h6 {
+  font-weight: bold;
+  text-align: center;
+}
+.about{
+    text-align: justify;
+}
+.headerBar {
+  padding-top: 10px;
+  padding-left: 72px;
+}
+.centerDiv {
+  width: 52%;
+  float: left;
+}
+
+
+/* links */
+a:link,  a:visited, a:hover, a:visited:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: grey !important;
+  cursor: grab;
+}
+
+.filmNav {
+  list-style-type: none;
+  padding: 72px;
+  margin: 0;
+  font-size: 14.5px;
+  position: fixed;
+}
+
+/* images */
+.indexImage{
+  padding: 50px;
+  margin-left: 230px;
+}
+.indexImage:hover {
+  filter: none;
+  cursor: grab;
+}
+.filmImages {
+  max-width: 670px !important;
+  max-length: auto !important;
+}
+.logoImage {
+  max-width: 35%;
+  max-height: auto;
+  padding-bottom: 10px;
+}
+.cvImage {
+  margin-right: 225px;
+}
+
+
+
+/* film grid */
+#filmGrid {
+  max-width: 900px;
+  margin-left: 280px;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+}
+
+#filmGrid li {
+  display: inline-block;
+  *display: inline;
+  width: 25%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.filmGrid-link {
+  display: block;
+  position: relative;
+}
+
+.filmGrid-img {
+  display: block;
+  width: 225px;
+  height: 170px;
+  border: none;
+  transform: scale(1);
+}
